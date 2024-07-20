@@ -23,7 +23,6 @@ def findDuplicateOptimized(arr):
     return slow
 
 
-
 arr = [1,2,3,4,6,5,6]
 print(findDuplicate(arr))
 print(findDuplicate(arr))
