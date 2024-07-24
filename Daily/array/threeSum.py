@@ -13,7 +13,7 @@ def threeSum(arr):
             if(three_sum == 0):
                 output.append([ele, arr[start],arr[end]])
                 start+=1
-                while(arr[start] == arr[start-1] and left<right):
+                while(arr[start] == arr[start-1] and start<end):
                     start+=1
 
             elif(three_sum>0):
