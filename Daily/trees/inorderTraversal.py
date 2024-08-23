@@ -13,12 +13,12 @@ def inorderTraversal(root):
         inorderTraversal(root.right)
 
 
-# root = Node(1)
-# root.left = Node(2)
-# root.right  = Node(3)
-# print(inorderTraversal(root))
-
 root = Node(1)
-root.right = Node(2)
-root.right.left = Node(3)
+root.left = Node(2)
+root.right  = Node(3)
 print(inorderTraversal(root))
+
+# root = Node(1)
+# root.right = Node(2)
+# root.right.left = Node(3)
+# print(inorderTraversal(root))
