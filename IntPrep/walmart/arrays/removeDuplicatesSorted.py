@@ -17,6 +17,7 @@ def removeDuplicatesInPlace(arr):
         if(arr[right]!=arr[left]):
             left+=1
             arr[left]=arr[right]
+            print(arr)
     # return left+1
     return arr[:left+1]
 
